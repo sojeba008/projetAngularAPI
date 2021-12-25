@@ -28,6 +28,7 @@
     "lint": "eslint src/. test/. --config .eslintrc.json --fix",
     "dev": "nodemon src/",
     "start": "node src/",
+    "build": "node src/",
     "mocha": "mocha test/ --recursive --exit"
   },
   "standard": {
