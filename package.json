@@ -28,7 +28,7 @@
     "lint": "eslint src/. test/. --config .eslintrc.json --fix",
     "dev": "nodemon src/",
     "start": "node src/",
-    "build": "node src/",
+    "build": "./node_modules/.bin/netlify-lambda build src",
     "mocha": "mocha test/ --recursive --exit"
   },
   "standard": {
@@ -55,6 +55,7 @@
     "jwt-decode": "^3.1.2",
     "mongodb-core": "^3.2.7",
     "mongoose": "^5.13.13",
+    "netlify-lambda": "^2.0.15",
     "serve-favicon": "^2.5.0",
     "winston": "^3.3.3"
   },
