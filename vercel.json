@@ -13,6 +13,6 @@
             "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
         },
         "src": "/.*",
-        "dest": "src/index.js"
+        "dest": "src/app.js"
     }]
   }
