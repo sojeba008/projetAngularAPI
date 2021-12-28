@@ -21,7 +21,7 @@ Getting up and running is as easy as 1, 2, 3.
 3. Start your app
 
     ```
-    npm start
+    npm start or npm run dev
     ```
 
 ## Testing
